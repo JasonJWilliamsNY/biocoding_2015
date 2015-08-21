@@ -182,10 +182,10 @@ Depending on your setup, there may be less or fewer directories, but among them 
 
 To prepare us for the week, lets setup a few directories that we can use to organize our work. Use the ``mkdir`` command to create the following directories:
 
-/home/biocoder/camp_projects
-/home/biocoder/camp_projects/data
-/home/biocoder/camp_projects/docs
-/home/biocoder/camp_projects/results
+/home/biocoder/camp_projects<br>
+/home/biocoder/camp_projects/data<br>
+/home/biocoder/camp_projects/docs<br>
+/home/biocoder/camp_projects/results<br>
 
 **Note:** Before creating these directories, take 3-5 minutes to discuss with your neigbhor/partner how you will create these directories. Is there any way to do this using the **less best** principle?
 
