@@ -1,0 +1,7 @@
+from string import maketrans
+
+compliment = maketrans('ATGC','TACG')
+my_string = 'AAATTTGGGCCC'
+#print my_string.translate(compliment)
+print my_string
+print my_string.translate(compliment)
