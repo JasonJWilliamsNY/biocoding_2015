@@ -2,7 +2,7 @@
 *For use with Epicenter MasterPure Complete DNA Purification Kit MCD85201* 
 
 ****
-###Collection of buccal cells for human mitochondrial DNA cells
+###Collection of buccal cells for human mitochondrial DNA
 
 Follow this protocol to collect the cells and the proceed to the section below on DNA extraction
 
@@ -13,7 +13,7 @@ Follow this protocol to collect the cells and the proceed to the section below o
 5. Place your sample tube, together with other student samples, in a balanced configuration in a microcentrifuge, and spin for 1.5 minute.
 6. Carefully pour off supernatant into paper cup or sink. Be careful not to disturb the cell pellet at the bottom of the test tube. A small amount of saline will remain in the tube.
 7. Use a pipette (yellow/p100) to remove as much of the supernatant as possible without disturbing the pellet. 
-8. Add 300ul of the Tissue and Cell Lysis Solution/Proteinase K (TCL+K) using the provided pestle
+8. Add 300ul of the Tissue and Cell Lysis Solution/Proteinase K (TCL+K)
 
 
 ****
@@ -37,7 +37,7 @@ Follow this protocol to collect the cells and the proceed to the section below o
 7. Carefully pour off the isopropanol without disturbing the DNA pellet
 8. Rinse the pellet with 70% ethanol, without disturbing the pellet. Pour off the ethanol and repeat. **If the pellet becomes dislodged during these rinses, centrifuge briefly again - the pellet IS your DNA; don't loose it! **
 9. Resuspend the pellet in 35l of TE-RNAse
-10. 
+10. Keep on ice or freeze until ready for PCR
 
 ****
 #prepare PCR reactions for sequencing
