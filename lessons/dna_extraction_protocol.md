@@ -34,10 +34,13 @@ Follow this protocol to collect the cells and the proceed to the section below o
 5. Transfer the supernatant to a clean **labeled** microcentrifuge tube and dispose of the tube with the pelleted debris
 6. Add 500l of isopropanol to the supernatant. Invert the tube several (30-40) times. 
 7. Pellet the DNA by centrifugation at 4^o C at >10,000 x g for 10 minutes
-7. Carefully pour off the isopropanol without disturbing the DNA pellet
-8. Rinse the pellet with 70% ethanol, without disturbing the pellet. Pour off the ethanol and repeat. **If the pellet becomes dislodged during these rinses, centrifuge briefly again - the pellet IS your DNA; don't loose it! **
-9. Resuspend the pellet in 35l of TE-RNAse
-10. Keep on ice or freeze until ready for PCR
+8. Carefully pour off the isopropanol without disturbing the DNA pellet
+9. Rinse the pellet with 70% ethanol, without disturbing the pellet. Spin the tube for 1 min at >10,000 g. Pour off the ethanol and repeat.
+
+     > **The pellet IS your DNA - don't loose it!**
+10. After pouring of any remaining ethanol, spin the tubes (containing only the empty pellets) for 1 min. Then use a pipette to remove any remaining ethanol. Let the pellet dry 1-2 min. 
+11. Resuspend the pellet in 35l of TE-RNAse
+12. Keep the tubes on ice or freeze until ready for PCR
 
 ****
 #prepare PCR reactions for sequencing
