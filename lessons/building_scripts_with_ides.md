@@ -51,10 +51,75 @@ print dna_to_rna(dna)
 >**Tip:** Save the script as dna_to_rna.py
 
 #### Challenge:
-Create a script that prompts the user with the following questions, and stores the answers in dictionary key/value pairs. 
+Create a script that prompts the user with the following questions, and stores the answers in dictionary key/value pairs. Let your partner provide answers to the questions (switch computers) and then view the results. 
 
 * Name of the user
 * School attended
 * Grade
 * Favorite food
 * Favorite place to visit 
+
+### Scripting
+
+Write a script call ``dna_to_protein.py``
+
+This script should do the following
+* accept a DNA input that the user types in
+* report to the user the size of the DNA sequence
+* report the RNA sequence to the user
+* report the protein sequence to the user
+
+# Working with files
+
+Up until now, we have been giving you sequences to work with, either by writing them into the iPython notebook, or just now by showing you how you can accept input from the user. Let's look at opening a file, reading its content, and then processing that information with python. 
+
+## Open a file containing DNA sequence and then writing the results to a new file. 
+
+```python
+filepath = ''
+
+#open a file for reading
+with open(filepath,'r') as input_file:
+    for line in input_file:
+        if '>' in line:
+            fasta_header = line.strip()
+        else:
+            sequence = line.strip()
+
+#print back the header and sequence 
+print fasta_header
+print sequence
+
+# translate sequence to DNA
+dna = sequence.replace('u','t')
+print dna
+
+#write the dna to file
+with open('dna_result.txt','a') as result_file:
+    result_file.write(fasta_header + '\n')
+    result_file.write(dna + '\n')
+```
+
+# Running your Python script at the shell
+
+Lets add just one more feature to make your script work at the shell, and without an editor/IDE:
+
+```python
+from sys import argv
+filepath = argv[1]
+
+#open a file for reading
+with open(filepath,'r') as input_file:
+    for line in input_file:
+        if '>' in line:
+            fasta_header = line.strip()
+        else:
+            sequence = line.strip()
+
+dna = sequence.replace('u','t')
+
+#write the dna to file
+with open('dna_result.txt','a') as result_file:
+    result_file.write(fasta_header + '\n')
+    result_file.write(dna + '\n')
+```
