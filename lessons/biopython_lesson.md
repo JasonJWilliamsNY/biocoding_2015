@@ -1,4 +1,4 @@
-# Final bioinformatics code snippets using Bioyython
+# Final bioinformatics code snippets using Biopython
 
 Also see: [Full Biopython documentation](http://biopython.org/DIST/docs/tutorial/Tutorial.html)
 
